@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+
+    <title>My Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- style.css -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- data aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <nav
+      class="
+        navbar navbar-expand-lg
+        justify-content-between
+        navbar-light
+        bg-light
+      "
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Mukesh Barman</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Services</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#skills"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#skill">My Skills</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#project">Projects</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#education">Education</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            follow Me in:
+            <a href="#">
+              <img
+                class="img-fluid mx-3"
+                src="images/instagram.png"
+                width="20px"
+              />
+            </a>
+            <a href="#">
+              <img class="img-fluid" src="images/facebook.png" width="20px" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main-container -->
+    <div class="main-container container">
+      <h1 class="text-center display-1 mt-5">Creative Portfolio</h1>
+
+      <!-- section 1 homepage -->
+      <div
+        id="home"
+        class="row sec1 space shadow p-3 d-flex"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+      >
+        <div class="text-center col-lg-6 col-md-6 col-sm-12">
+          <h1 class="mt-5">Hi ! I'm Mukesh Barman</h1>
+          <p class="text-capitalize">
+            As a web designer, my objective is to make a positive impact on
+            clients, co-workers, and the Internet using my skills and experience
+            to design compelling and attractive websites.
+          </p>
+          <button class="btn btn-outline-primary">Download CV</button>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <img
+            src="images/undraw_Development_re_g5hq.png"
+            class="img-fluid"
+            width="900px"
+          />
+        </div>
+      </div>
+      <!-- section 1 homepage -->
+
+      <!-- section 2 about -->
+      <div id="about" class="sec2 space container" data-aos="zoom-out-down">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 mt-5">
+            <img
+              src="images/undraw_proud_coder_7ain.png"
+              class="img-fluid"
+              width="800px"
+            />
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 mt-5">
+            <h1 class="text-center display-3">
+              I'm A professional web designer
+            </h1>
+            <p>
+              Energetic Web Designer With The Skills Of Creating And Maintaining
+              Functional,Attractive And Responsive Web Designs. Clear
+              Understanding Of Modern Technologies And Best Design Practices And
+              I'm Always Trying To Improve My Skills. That's All.
+            </p>
+            <button class="btn btn-outline-success">Hire Me</button>
+          </div>
+        </div>
+      </div>
+      <!-- section 2 about -->
+
+      <!-- section 3 service -->
+      <div
+        id="service"
+        class="sec3 mx-auto space container"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
+        <h1 class="mb-5 display-3 text-center">Services</h1>
+        <div class="wrapper">
+          <div class="wrap-card">
+            <!-- card1 -->
+            <div
+              class="card mx-auto shadow"
+              style="width: 18rem"
+              data-aos="flip-right"
+            >
+              <img
+                class="card-img-top img-fluid"
+                src="images/pexels-tranmautritam-251225.jpg"
+                alt="Card image cap"
+                style="width: 17.8rem"
+              />
+              <div class="card-body" style="height: 10rem">
+                <article class="card-text text-center">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod.
+                </article>
+              </div>
+              <div
+                class="card-body"
+                style="
+                  border-bottom-left-radius: 10px;
+                  border-bottom-right-radius: 10px;
+                  height: 4rem;
+                  background-color: #f72585;
+                "
+              >
+                <h6 class="card-title text-center text-white">Designing</h6>
+              </div>
+            </div>
+
+            <!-- card2 -->
+            <div
+              class="card mx-auto shadow-lg"
+              style="width: 18rem"
+              data-aos="flip-right"
+            >
+              <img
+                class="card-img-top img-fluid"
+                src="images/pexels-pixabay-270348.jpg"
+                alt="Card image cap"
+                style="width: 17.8rem"
+              />
+              <div class="card-body" style="height: 10rem">
+                <article class="card-text text-center">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod.
+                </article>
+              </div>
+              <div
+                class="card-body"
+                style="
+                  border-bottom-left-radius: 10px;
+                  border-bottom-right-radius: 10px;
+                  height: 4rem;
+                  background-color: #7209b7;
+                "
+              >
+                <h6 class="card-title text-center text-white">Developing</h6>
+              </div>
+            </div>
+
+            <!-- card3 -->
+            <div
+              class="card mx-auto shadow"
+              style="width: 18rem"
+              data-aos="flip-right"
+            >
+              <img
+                class="card-img-top img-fluid"
+                src="images/pexels-pixabay-4158.jpg"
+                alt="Card image cap"
+                style="width: 17.8rem"
+              />
+              <div class="card-body" style="height: 10rem">
+                <article class="card-text text-center">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod.
+                </article>
+              </div>
+              <div
+                class="card-body"
+                style="
+                  border-bottom-left-radius: 10px;
+                  border-bottom-right-radius: 10px;
+                  height: 4rem;
+                  background-color: #4361ee;
+                "
+              >
+                <h6 class="card-title text-center text-white">Responsive</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 3 services -->
+
+      <!-- section 4 skills -->
+      <div id="skill" class="sec4 space container" data-aos="flip-up">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 s4img">
+            <img
+              src="images/undraw_Code_thinking_re_gka2.png"
+              class="img-fluid"
+              width="800px"
+            />
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-12 awrd">
+            <h1 class="text-center display-3 mt-3">My Skills</h1>
+            <p>
+              “Digital design is like painting, except the paint never dries.”
+            </p>
+            <p class="mt-3">Web Designing - 75%</p>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped bg-warning"
+                role="progressbar"
+                style="width: 75%"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+
+            <p class="mt-3">Responsive Design - 50%</p>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped bg-info"
+                role="progressbar"
+                style="width: 50%"
+                aria-valuenow="50"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+
+            <p class="mt-3">Web Developing - 65%</p>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped bg-danger"
+                role="progressbar"
+                style="width: 65%"
+                aria-valuenow="50"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 4 skills -->
+
+      <!-- section 5 project -->
+      <div
+        id="project"
+        class="sec5 space container"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+      >
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="display-3 mt-3">
+              Projects<!-- “Talk is cheap. Show me the code.” -->
+            </h1>
+            <img
+              src="images/undraw_personal_website_weap.png"
+              class="img-fluid"
+              width="800px"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- section 5 project -->
+
+      <!-- section 6 education -->
+      <div
+        id="education"
+        class="sec6 space container"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      >
+        <div class="row">
+          <div class="col-6">
+            <img
+              src="images/undraw_education_f8ru.png"
+              class="img-fluid"
+              width="800px"
+            />
+          </div>
+
+          <div class="col-6">
+            <h1 class="display-3 mt-3">
+              Education<!-- “Talk is cheap. Show me the code.” -->
+            </h1>
+
+            <div class="text-center d-flex edu">
+              <div>
+                <h3 class="text-primary">High School</h3>
+                <img class="mb-3" src="images/school.png" alt="" width="40px" />
+                <p>-10<sup>Th</sup>-Year -2015</p>
+                <p>-12<sup>Th</sup>-Year -2017</p>
+              </div>
+
+              <div>
+                <h3 class="text-primary">Bachelor's Degree</h3>
+                <img
+                  class="mb-3"
+                  src="images/graduation.png"
+                  alt=""
+                  width="40px"
+                />
+                <p>Bachelor Of Computer Application</p>
+                <p>Year - 2020</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section 6 education -->
+
+      <!-- section 7 contact -->
+      <div
+        id="contact"
+        class="sec6 space container"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      >
+        <div class="row">
+          <div class="col-6">
+            <h1 class="display-3 mt-3">
+              Contact Us<!-- “Talk is cheap. Show me the code.” -->
+            </h1>
+            <img
+              src="images/undraw_Agreement_re_d4dv.png"
+              class="img-fluid"
+              width="800px"
+            />
+          </div>
+
+          <div class="col-6">
+            <form method="post">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="t1" />
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Send A Message</label
+                >
+                <textarea
+                  class="form-control"
+                  cols="30"
+                  rows="5"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- section 7 contact -->
+
+      <footer class="p-2 bg-dark text-center">
+        <h6 class="text-white p-3">
+          © 2021 My Portfolio. All rights reserved | Design by Mukesh Barman.
+        </h6>
+      </footer>
+    </div>
+    <!-- main-container -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 80, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 2000, // values from 0 to 3000, with step 50ms
+      });
+    </script>
+  </body>
+</html>

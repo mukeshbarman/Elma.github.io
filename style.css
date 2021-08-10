@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo {
+  width: 10rem;
+}
+
+.space {
+  margin: 6rem 0;
+}
+
+.sec2 {
+  margin: 15rem 0;
+}
+
+.sec4 {
+  margin: 15rem 0;
+}
+
+.sec4 .s4img img {
+  margin-top: 6rem;
+}
+.sec5 .img-gal .g1 {
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.sec5 .img-gal .g1 p {
+  font-size: 0.8rem;
+}
+
+.edu {
+  justify-content: space-between;
+}
+
+.wrap-card {
+  display: grid;
+  place-items: center;
+}
+
+@media only screen and (min-width: 992px) {
+  .wrap-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.card {
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
